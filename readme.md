@@ -3,6 +3,10 @@
 This login flow crashes during the sign in while the web browser is visible on iOS 16
 You'll need to add a valid clientId and try to sign in with an account on that clientId to see the failure
 
+The build is included in the `simulator_app` directory. I built it using the command 
+
+`eas build --platform ios --profile devclient` 
+
 Sample Log Output when it crashes: 
 
 ``` 
