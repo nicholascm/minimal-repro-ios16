@@ -1,0 +1,20 @@
+{
+  "cli": {
+    "version": ">= 0.35.0"
+  },
+  "build": {
+    "devclient": {
+      "channel": "preview",
+      "distribution": "internal",
+      "developmentClient": true,
+      "android": {
+        "buildType": "apk"
+      },
+      "ios": {
+        "resourceClass": "m-medium",
+        "simulator": true,
+        "image": "macos-sequoia-15.3-xcode-16.2"
+      }
+    }
+  }
+}
